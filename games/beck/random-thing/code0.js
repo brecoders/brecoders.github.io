@@ -1636,11 +1636,6 @@ if(isConditionTrue_1) {
 gdjs.copyArray(gdjs.GameSceneCode.GDJumpButtonObjects3_1final, gdjs.GameSceneCode.GDJumpButtonObjects3);
 }
 }
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8705668);
-}
-}
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.GameSceneCode.GDDinoMortObjects3 */
