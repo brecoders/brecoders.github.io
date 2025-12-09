@@ -23,7 +23,7 @@ isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("RedButtonWithStoneFrame"), gdjs.GameOverSceneCode.GDRedButtonWithStoneFrameObjects2);
 for (var i = 0, k = 0, l = gdjs.GameOverSceneCode.GDRedButtonWithStoneFrameObjects2.length;i<l;++i) {
-    if ( gdjs.GameOverSceneCode.GDRedButtonWithStoneFrameObjects2[i].IsClicked(null) ) {
+    if ( gdjs.GameOverSceneCode.GDRedButtonWithStoneFrameObjects2[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_1 = true;
         gdjs.GameOverSceneCode.GDRedButtonWithStoneFrameObjects2[k] = gdjs.GameOverSceneCode.GDRedButtonWithStoneFrameObjects2[i];
         ++k;
@@ -39,7 +39,7 @@ if(isConditionTrue_1) {
 }
 }
 {
-isConditionTrue_1 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, 1, "Square", null);
+isConditionTrue_1 = gdjs.evtsExt__Gamepads__C_Button_pressed.func(runtimeScene, 1, "Square", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }

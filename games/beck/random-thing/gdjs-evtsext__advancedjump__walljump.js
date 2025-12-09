@@ -351,7 +351,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1, gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2);
 
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).RememberJumpKeyPressed("Jump", eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).RememberJumpKeyPressed("Jump", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -376,7 +376,7 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1 */
 {eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setIsWallJumping(false)
 }{for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ToggleSideSpeed(false, eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ToggleSideSpeed(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -494,7 +494,7 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1 */
 {eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setIsWallJumping(false)
 }{for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ToggleSideSpeed(false, eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ToggleSideSpeed(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -674,7 +674,7 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2 */
 {eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setIsAgainstWall(true)
 }{for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).RememberIsAgainstWall(eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).RememberIsAgainstWall((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }
 { //Subevents
@@ -764,7 +764,7 @@ gdjs.copyArray(gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPre
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).WasJumpKeyPressed(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpTimeFrame(), "Jump", eventsFunctionContext) ) {
+    if ( gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).WasJumpKeyPressed(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpTimeFrame(), "Jump", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
         gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[k] = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i];
         ++k;
@@ -774,17 +774,17 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.G
 if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ForgetJumpKeyPressed("Jump", eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ForgetJumpKeyPressed("Jump", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
     gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerCharacter")).setCanJump();
 }
 }{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setIsWallJumping(true)
 }{for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ToggleSideSpeed(true, eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ToggleSideSpeed(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ForgetIsAgainstWall(eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).ForgetIsAgainstWall((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setHasJustWallJump(true)
 }{for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
@@ -842,7 +842,7 @@ if(isConditionTrue_1) {
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2);
 for (var i = 0, k = 0, l = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2.length;i<l;++i) {
-    if ( gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).WasAgainstWall(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpTimeFrame(), eventsFunctionContext) ) {
+    if ( gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).WasAgainstWall(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpTimeFrame(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_1 = true;
         gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2[k] = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2[i];
         ++k;
@@ -1032,7 +1032,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).AbsorbFallingSpeed(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingSpeedAbsorption(), eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).AbsorbFallingSpeed(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingSpeedAbsorption(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setMovedAwayFromTheWall(false)
 }
@@ -1051,7 +1051,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects2, gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects3);
 
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects3.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).SlideOnWall(true, eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects3[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).SlideOnWall(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -1224,7 +1224,7 @@ gdjs.copyArray(gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPre
 if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).SlideOnWall(false, eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior")).SlideOnWall(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -1249,7 +1249,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototy
 gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.doStepPreEventsContext.GDObjectObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(15437668);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19479396);
 }
 }
 if (isConditionTrue_0) {
@@ -1463,7 +1463,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.HasJustWallJumpedContext
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = false;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = false; }}}
 
 }
 
@@ -1476,7 +1476,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getHasJustWallJump();
 }
 if (isConditionTrue_0) {
-{eventsFunctionContext.returnValue = true;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
 
@@ -1569,7 +1569,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.IsWallJumpingContext.eve
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = false;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = false; }}}
 
 }
 
@@ -1582,7 +1582,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getIsWallJumping();
 }
 if (isConditionTrue_0) {
-{eventsFunctionContext.returnValue = true;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
 
@@ -1675,7 +1675,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.IsAgaintWallContext.even
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = false;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = false; }}}
 
 }
 
@@ -1688,7 +1688,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getIsAgainstWall();
 }
 if (isConditionTrue_0) {
-{eventsFunctionContext.returnValue = true;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
 
@@ -1975,7 +1975,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.WasAgainstWallContext.ev
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = false;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = false; }}}
 
 }
 
@@ -1995,7 +1995,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototy
 }
 gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.WasAgainstWallContext.GDObjectObjects1.length = k;
 if (isConditionTrue_0) {
-{eventsFunctionContext.returnValue = true;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
 
@@ -2285,7 +2285,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.WasJumpKeyPressedContext
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = false;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = false; }}}
 
 }
 
@@ -2305,7 +2305,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototy
 }
 gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.WasJumpKeyPressedContext.GDObjectObjects1.length = k;
 if (isConditionTrue_0) {
-{eventsFunctionContext.returnValue = true;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
 
@@ -2412,7 +2412,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.G
 if (isConditionTrue_0) {
 /* Reuse gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1 */
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).ConfigureMaxSpeed(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallJumpSpeedX(), "WallJumpLeap", eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).ConfigureMaxSpeed(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallJumpSpeedX(), "WallJumpLeap", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -2438,7 +2438,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).ConfigureAcceleration(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallJumpAccelerationX(), "WallJumpLeap", eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).ConfigureAcceleration(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallJumpAccelerationX(), "WallJumpLeap", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }
 { //Subevents
@@ -2465,7 +2465,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).RevertConfiguration("WallJumpLeap", eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.ToggleSideSpeedContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).RevertConfiguration("WallJumpLeap", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -2573,10 +2573,10 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).ConfigureGravity(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingGravity(), "WallJumpSliding", eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).ConfigureGravity(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingGravity(), "WallJumpSliding", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).ConfigureMaxFallSpeed(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingMaxFallingSpeed(), "WallJumpSliding", eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).ConfigureMaxFallSpeed(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingMaxFallingSpeed(), "WallJumpSliding", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -2600,7 +2600,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).RevertConfiguration("WallJumpSliding", eventsFunctionContext);
+    gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.SlideOnWallContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerConfigurationStack")).RevertConfiguration("WallJumpSliding", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -2797,7 +2797,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.JumpTimeFrameContext.eve
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpTimeFrame();}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getJumpTimeFrame(); }}}
 
 }
 
@@ -2985,7 +2985,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.WallJumpSpeedXContext.ev
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallJumpSpeedX();}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallJumpSpeedX(); }}}
 
 }
 
@@ -3173,7 +3173,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.WallJumpAccelerationXCon
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallJumpAccelerationX();}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallJumpAccelerationX(); }}}
 
 }
 
@@ -3361,7 +3361,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.WallSlidingGravityContex
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingGravity();}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingGravity(); }}}
 
 }
 
@@ -3549,7 +3549,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.WallSlidingMaxFallingSpe
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingMaxFallingSpeed();}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingMaxFallingSpeed(); }}}
 
 }
 
@@ -3737,7 +3737,7 @@ gdjs.evtsExt__AdvancedJump__WallJump.WallJump.prototype.WallSlidingSpeedAbsorpti
 
 let isConditionTrue_0 = false;
 {
-{eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingSpeedAbsorption();}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getWallSlidingSpeedAbsorption(); }}}
 
 }
 

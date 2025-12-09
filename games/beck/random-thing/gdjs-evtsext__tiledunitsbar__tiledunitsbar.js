@@ -171,9 +171,9 @@ gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedCont
 
 gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDFillBarObjects1.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene(eventsFunctionContext, gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.mapOfGDgdjs_9546evtsExt_9595_9595TiledUnitsBar_9595_9595TiledUnitsBar_9546TiledUnitsBar_9546prototype_9546onCreatedContext_9546GDBackgroundObjects1Objects, 0, 0, "");
-}{gdjs.evtTools.object.createObjectOnScene(eventsFunctionContext, gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.mapOfGDgdjs_9546evtsExt_9595_9595TiledUnitsBar_9595_9595TiledUnitsBar_9546TiledUnitsBar_9546prototype_9546onCreatedContext_9546GDBarObjects1Objects, 0, 0, "");
-}{gdjs.evtTools.object.createObjectOnScene(eventsFunctionContext, gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.mapOfGDgdjs_9546evtsExt_9595_9595TiledUnitsBar_9595_9595TiledUnitsBar_9546TiledUnitsBar_9546prototype_9546onCreatedContext_9546GDFillBarObjects1Objects, 0, 0, "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.mapOfGDgdjs_9546evtsExt_9595_9595TiledUnitsBar_9595_9595TiledUnitsBar_9546TiledUnitsBar_9546prototype_9546onCreatedContext_9546GDBackgroundObjects1Objects, 0, 0, "");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.mapOfGDgdjs_9546evtsExt_9595_9595TiledUnitsBar_9595_9595TiledUnitsBar_9546TiledUnitsBar_9546prototype_9546onCreatedContext_9546GDBarObjects1Objects, 0, 0, "");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.mapOfGDgdjs_9546evtsExt_9595_9595TiledUnitsBar_9595_9595TiledUnitsBar_9546TiledUnitsBar_9546prototype_9546onCreatedContext_9546GDFillBarObjects1Objects, 0, 0, "");
 }{for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDBackgroundObjects1.length ;i < len;++i) {
     gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDBackgroundObjects1[i].setZOrder(1);
 }
@@ -219,10 +219,10 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDObjectObjects1[i].SetMaxValue(eventsFunctionContext.getObjects("Object")[0]._getMaxValue(), eventsFunctionContext);
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDObjectObjects1[i].SetMaxValue(eventsFunctionContext.getObjects("Object")[0]._getMaxValue(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDObjectObjects1[i].SetValue(eventsFunctionContext.getObjects("Object")[0]._getInitialValue(), eventsFunctionContext);
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onCreatedContext.GDObjectObjects1[i].SetValue(eventsFunctionContext.getObjects("Object")[0]._getInitialValue(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -346,10 +346,10 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1[i].CenterBar(eventsFunctionContext);
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1[i].CenterBar((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1[i].SetMaxValue(eventsFunctionContext.getObjects("Object")[0]._getMaxValue(), eventsFunctionContext);
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1[i].SetMaxValue(eventsFunctionContext.getObjects("Object")[0]._getMaxValue(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -367,7 +367,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1);
 {eventsFunctionContext.getObjects("Object")[0]._setPreviousInitialValue(eventsFunctionContext.getObjects("Object")[0]._getInitialValue())
 }{for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1[i].SetValue(eventsFunctionContext.getObjects("Object")[0]._getInitialValue(), eventsFunctionContext);
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.onHotReloadingContext.GDObjectObjects1[i].SetValue(eventsFunctionContext.getObjects("Object")[0]._getInitialValue(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -522,7 +522,7 @@ let isConditionTrue_0 = false;
     gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.doStepPostEventsContext.GDBackgroundObjects1[i].setHeight(eventsFunctionContext.localVariables[0].getFromIndex(1).getAsNumber());
 }
 }{for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.doStepPostEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.doStepPostEventsContext.GDObjectObjects1[i].CenterBar(eventsFunctionContext);
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.doStepPostEventsContext.GDObjectObjects1[i].CenterBar((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 eventsFunctionContext.localVariables.pop();
@@ -883,7 +883,7 @@ gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.ValueContext.
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.ValueContext.GDFillBarObjects1);
-{eventsFunctionContext.returnValue = (( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.ValueContext.GDFillBarObjects1.length === 0 ) ? 0 :gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.ValueContext.GDFillBarObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).Value(eventsFunctionContext));}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.ValueContext.GDFillBarObjects1.length === 0 ) ? 0 :gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.ValueContext.GDFillBarObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))); }}}
 
 }
 
@@ -1012,10 +1012,10 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDFillBarObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDFillBarObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).SetValue(eventsFunctionContext.getArgument("Value"), eventsFunctionContext);
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).SetValue(eventsFunctionContext.getArgument("Value"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDFillBarObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Resizable")).setWidth((( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDObjectObjects1[0].Value(eventsFunctionContext)) * eventsFunctionContext.getObjects("Object")[0]._getUnitWidth());
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Resizable")).setWidth((( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDObjectObjects1.length === 0 ) ? 0 :gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetValueContext.GDObjectObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * eventsFunctionContext.getObjects("Object")[0]._getUnitWidth());
 }
 }}
 
@@ -1138,7 +1138,7 @@ gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.MaxValueConte
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.MaxValueContext.GDFillBarObjects1);
-{eventsFunctionContext.returnValue = (( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.MaxValueContext.GDFillBarObjects1.length === 0 ) ? 0 :gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.MaxValueContext.GDFillBarObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).MaxValue(eventsFunctionContext));}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = (( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.MaxValueContext.GDFillBarObjects1.length === 0 ) ? 0 :gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.MaxValueContext.GDFillBarObjects1[0].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).MaxValue((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))); }}}
 
 }
 
@@ -1261,13 +1261,13 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Bar"), gdjs.evtsExt__TiledUnits
 gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDFillBarObjects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDObjectObjects1);
 {for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDFillBarObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).SetMaxValue(eventsFunctionContext.getArgument("Value"), eventsFunctionContext);
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).SetMaxValue(eventsFunctionContext.getArgument("Value"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDBarObjects1.length ;i < len;++i) {
     gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Resizable")).setWidth(eventsFunctionContext.getArgument("Value") * eventsFunctionContext.getObjects("Object")[0]._getUnitWidth());
 }
 }{for(var i = 0, len = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDObjectObjects1[i].CenterBar(eventsFunctionContext);
+    gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.SetMaxValueContext.GDObjectObjects1[i].CenterBar((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -1391,7 +1391,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__TiledU
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsEmptyContext.GDFillBarObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsEmptyContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).IsEmpty(eventsFunctionContext) ) {
+    if ( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsEmptyContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).IsEmpty((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
         gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsEmptyContext.GDFillBarObjects1[k] = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsEmptyContext.GDFillBarObjects1[i];
         ++k;
@@ -1399,7 +1399,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnits
 }
 gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsEmptyContext.GDFillBarObjects1.length = k;
 if (isConditionTrue_0) {
-{eventsFunctionContext.returnValue = true;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
 
@@ -1520,7 +1520,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("FillBar"), gdjs.evtsExt__TiledU
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsFullContext.GDFillBarObjects1.length;i<l;++i) {
-    if ( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsFullContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).IsFull(eventsFunctionContext) ) {
+    if ( gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsFullContext.GDFillBarObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("ResourceBar")).IsFull((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
         gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsFullContext.GDFillBarObjects1[k] = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsFullContext.GDFillBarObjects1[i];
         ++k;
@@ -1528,7 +1528,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnits
 }
 gdjs.evtsExt__TiledUnitsBar__TiledUnitsBar.TiledUnitsBar.prototype.IsFullContext.GDFillBarObjects1.length = k;
 if (isConditionTrue_0) {
-{eventsFunctionContext.returnValue = true;}}
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
 
 }
 
